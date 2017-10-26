@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   jenkins:
   - appVersion: "2.67"
-    created: 2017-10-26T16:48:19.986729001+08:00
+    created: 2017-10-26T17:12:34.60468689+08:00
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -21,4 +21,84 @@ entries:
     urls:
     - jenkins-0.9.0.tgz
     version: 0.9.0
-generated: 2017-10-26T16:48:19.984212701+08:00
+  - appVersion: "2.67"
+    created: 2017-10-26T17:12:34.605664078+08:00
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: 7ab6c806aa83c45d56e04ebcd02e6ff9daa9844897ca40feb8c3dc44e3d9811c
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    urls:
+    - chart/jenkins-0.9.0.tgz
+    version: 0.9.0
+  - appVersion: "2.67"
+    created: 2017-10-26T17:12:34.606365259+08:00
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: f8329a9bbace9fccfd2882e14bf2d1c658b4af7859cbab2eba41b9a573080fa6
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    urls:
+    - jenkins/jenkins-0.9.0.tgz
+    version: 0.9.0
+  - appVersion: "2.67"
+    created: 2017-10-26T17:12:34.607415342+08:00
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: 7ab6c806aa83c45d56e04ebcd02e6ff9daa9844897ca40feb8c3dc44e3d9811c
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    urls:
+    - my-charts/jenkins-0.9.0.tgz
+    version: 0.9.0
+  - appVersion: "2.67"
+    created: 2017-10-26T17:12:34.60845361+08:00
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: 7ab6c806aa83c45d56e04ebcd02e6ff9daa9844897ca40feb8c3dc44e3d9811c
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    urls:
+    - templates/jenkins-0.9.0.tgz
+    version: 0.9.0
+generated: 2017-10-26T17:12:34.603421693+08:00
