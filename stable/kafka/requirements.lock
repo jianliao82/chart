@@ -1,6 +1,6 @@
 dependencies:
 - name: zookeeper
-  repository: https://kubernetes-charts-incubator.storage.googleapis.com/
+  repository: http://liaoj-helm-repository.e2equota.haproxy-139-219-56-162-alaudaorg.myalauda.cn/
   version: 0.3.1
-digest: sha256:a2724fe59862e671ee0b59667422168bf37224d63a3f8fc4340c4fd63d75b646
-generated: 2017-07-29T17:52:16.380268781+02:00
+digest: sha256:ef4b1fe101c3bee30fead1f43d5a927144af73122bfb90e6eb56f3bae2fbd12e
+generated: 2018-01-26T16:08:41.64509+08:00
