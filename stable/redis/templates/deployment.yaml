@@ -15,13 +15,13 @@ spec:
     spec:
       securityContext:
         initContainers:
-+       - name: "fix-permissions"
-+         image: "busybox"
-+         imagePullPolicy: "{{ .Values.imagePullPolicy }}"
-+         command: ["sh", "-c", "chown -R 1001:1001 /bitnami"]
-+         volumeMounts:
-+         - name: redis-data
-+           mountPath: /bitnami
+        - name: "fix-permissions"
+          image: "busybox"
+          imagePullPolicy: "{{ .Values.imagePullPolicy }}"
+          command: ["sh", "-c", "chown -R 1001:1001 /bitnami"]
+          volumeMounts:
+          - name: redis-data
+            mountPath: /bitnami
       {{- if .Values.nodeSelector }}
       nodeSelector:
 {{ toYaml .Values.nodeSelector | indent 8 }}
