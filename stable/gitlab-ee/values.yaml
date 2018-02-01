@@ -85,6 +85,7 @@ postgresql:
   postgresDatabase: gitlab
 
   persistence:
+    enabled: false
     size: 10Gi
 
 ## Configuration values for the redis dependency.
@@ -98,4 +99,5 @@ redis:
       memory: 1Gi
 
   persistence:
+    enabled: false
     size: 10Gi
