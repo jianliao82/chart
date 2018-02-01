@@ -1,6 +1,6 @@
 dependencies:
 - name: zookeeper
   repository: http://liaoj-helm-repository.e2equota.haproxy-139-219-56-162-alaudaorg.myalauda.cn/
-  version: 0.3.1
-digest: sha256:ef4b1fe101c3bee30fead1f43d5a927144af73122bfb90e6eb56f3bae2fbd12e
-generated: 2018-01-26T16:08:41.64509+08:00
+  version: 0.4.2
+digest: sha256:5595d0027d2fbcb5ec33443732f146b67017ec6aaac134ec2f15fc0f7d95b700
+generated: 2018-02-01T14:31:08.229121+08:00
