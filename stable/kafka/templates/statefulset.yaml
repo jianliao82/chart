@@ -27,7 +27,7 @@ spec:
               - --zookeeper
               - "{{ .Release.Name }}-zookeeper:2181"
               - --list
-          initialDelaySeconds: 30
+          initialDelaySeconds: 300
           timeoutSeconds: 5
         readinessProbe:
           exec:
@@ -36,7 +36,7 @@ spec:
               - --zookeeper
               - "{{ .Release.Name }}-zookeeper:2181"
               - --list
-          initialDelaySeconds: 30
+          initialDelaySeconds: 300
           timeoutSeconds: 5
         ports:
         - containerPort: 9092

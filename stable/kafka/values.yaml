@@ -35,7 +35,7 @@ zookeeper:
   ClientCnxns: 60
   SnapRetain: 3
   PurgeHours: 1
-  ProbeInitialDelaySeconds : 15
-  ProbeTimeoutSeconds : 5
+  ProbeInitialDelaySeconds : 150
+  ProbeTimeoutSeconds : 50
   AntiAffinity : "hard"
   LogLevel : "INFO"

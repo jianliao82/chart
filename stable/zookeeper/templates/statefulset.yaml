@@ -108,3 +108,6 @@ spec:
       resources:
         requests:
           storage: {{ .Values.storage }}
+      {{- if .Values.storageClass }}
+      storageClassName: {{ .Values.storageClass | quote }}
+      {{- end }}
