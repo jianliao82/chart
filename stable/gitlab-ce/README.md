@@ -1,3 +1,4 @@
+wq!
 > This chart is deprecated in favor of the [official GitLab chart](http://docs.gitlab.com/ce/install/kubernetes/gitlab_omnibus.html).
 
 # GitLab Community Edition
