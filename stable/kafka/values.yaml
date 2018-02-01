@@ -39,3 +39,5 @@ zookeeper:
   ProbeTimeoutSeconds : 5
   AntiAffinity : "hard"
   LogLevel : "INFO"
+  security:
+    enabled: false
