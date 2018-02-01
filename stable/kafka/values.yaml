@@ -36,6 +36,6 @@ zookeeper:
   SnapRetain: 3
   PurgeHours: 1
   ProbeInitialDelaySeconds : 150
-  ProbeTimeoutSeconds : 50
+  ProbeTimeoutSeconds : 5
   AntiAffinity : "hard"
   LogLevel : "INFO"
