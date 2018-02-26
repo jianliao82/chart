@@ -5,6 +5,7 @@ version: 0.2.0
 appVersion: 0.5.0
 home: https://github.com/appscode/g2
 icon: https://cdn.appscode.com/images/icon/g2.png
+status: COMING
 sources:
 - https://github.com/appscode/g2
 maintainers:
