@@ -7,3 +7,4 @@ g2:
 rbac:
   install: false
   apiVersion: v1beta1
+registryAddress: abcdefg
